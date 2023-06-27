@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+printBanner	extractFunction/extractFunctionRefactored.js	/^function printBanner() {$/;"	f
+printDetails	extractFunction/extractFunctionRefactored.js	/^function printDetails() {$/;"	f
+printOwing	extractFunction/extractFunction.js	/^function printOwing(invoice) {$/;"	f
+printOwing	extractFunction/extractFunctionRefactored.js	/^function printOwing(invoice) {$/;"	f
