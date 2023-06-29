@@ -31,7 +31,7 @@ describe('priceOrder', function(){
         const shippingMethod = {
             "discountThreshold": 0.2,
             "discountedFee": 0.2,
-            "feePerCases": 0.2, 
+            "feePerCase": 0.2, 
         };
 
         const result = PriceOrder(product, quantity, shippingMethod);
