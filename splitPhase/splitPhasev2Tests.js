@@ -17,7 +17,7 @@
 * Example:
 */
 const assert = require('assert');
-const statement = require('./splitPhasev2')
+const statement = require('./splitPhasev2Refactored')
 
 const invoices = [{
     "customer": "Daniel Nager Carpio",
