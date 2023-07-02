@@ -18,20 +18,20 @@
 */
 
 const assert = require('assert');
-const PriceOrder = require('./splitPhaseRefactored.js')
+const PriceOrder = require('./splitPhase.js')
 
-describe('priceOrder', function(){
-    it('Should return correct price order', function(){
+describe('priceOrder', function () {
+    it('Should return correct price order', function () {
         const product = {
-            "basePrice": 4, 
-            "discountThreshold": 0.2, 
-            "discountRate":0.2
+            "basePrice": 4,
+            "discountThreshold": 0.2,
+            "discountRate": 0.2
         }
         const quantity = 2;
         const shippingMethod = {
             "discountThreshold": 0.2,
             "discountedFee": 0.2,
-            "feePerCase": 0.2, 
+            "feePerCase": 0.2,
         };
 
         const result = PriceOrder(product, quantity, shippingMethod);
